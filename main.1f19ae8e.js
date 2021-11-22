@@ -2860,7 +2860,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.sprudgeArticle = exports.listItems = exports.accessToken = void 0;
 const sprudgeArticle = 'https://sprudge.com/the-sprudge-guide-to-coffee-in-kyoto-128389.html';
 exports.sprudgeArticle = sprudgeArticle;
-const accessToken = 'sk.eyJ1IjoiZ2UyYXMiLCJhIjoiY2t3YWIwOHBsN290cTJ1bzB5bGZkaXZ1eCJ9.uVQ8QEeNJ3SVrQ-p8StL6w';
+const accessToken = 'pk.eyJ1IjoiZ2UyYXMiLCJhIjoiY2t3YWgyNTMzMGNhczJwbXdwOXJ2cHpiaiJ9.i00XsA_peJjXSUM1ia7vJA';
 exports.accessToken = accessToken;
 const listItems = [{
   name: '',
@@ -36073,7 +36073,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36699" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33145" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
