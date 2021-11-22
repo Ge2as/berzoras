@@ -2864,50 +2864,49 @@ const accessToken = 'pk.eyJ1IjoiZ2UyYXMiLCJhIjoiY2t3YWgyNTMzMGNhczJwbXdwOXJ2cHpi
 exports.accessToken = accessToken;
 const listItems = [{
   name: '',
-  description: '<p>Beržoras Village is an old street village, which used to be mentioned since 15th century, and now is a state-protected cultural valuable. The entire village demonstrates abundance of chapels, crosses and wayside shrines with sculptures of saints that survived or have been restored..</p>',
+  description: 'Beržoras Village is an old street village, which used to be mentioned since 15th century, and now is a state-protected cultural valuable. The entire village demonstrates abundance of chapels, crosses and wayside shrines with sculptures of saints that survived or have been restored..',
   address: 'Beržoras, Platelių pšt., 90036 Plungės r.',
   image: '',
   website: 'http://zemaitijosnp.lt/en/veikla/places-to-visit/berzoras/',
-  coordinates: [21.812835, 56.025181]
+  coordinates: [21.812835, 56.025182]
 }, {
   name: 'Church of St. Stanislaus the Bishop',
-  description: '<p>Church of St. Stanislaus the Bishop is a wooden Roman Catholic church in Beržoras, Plungė District Municipality, Lithuania. The church complex includes a 14-station outdoor Way of the Cross.</p> <p> It is said that a shepherd saw a painting of the Holy Virgin Mary in a treetop. The priests brought the painting down and took it to the Plateliai church; however, the painting disappeared from the church and reappeared in the same place in the treetop. According to the legend, it was then decided to build a new church on this spot where the painting would hang.The first building of the complex, the wooden chapel of St. John of Nepomuk, rose no later than in the 18th century. Unfortunately, the exact date is not known. Eventually, the number of Christians in the village grew so that they could not fit into the chapel. Thus, in 1746 a larger church was built and it was given the title of St. Stanislaus the Bishop. The church has the characteristics of Lithuanian folk architecture, with a wooden and cross-shaped design. However, the main altar of the church is considered to be Baroque in style, and there are four altars in total.The Calvary of Beržoras has been in use since 1760, and is the only Calvary to be established in the 18th-century Lithuania. The Calvary was established by the parish priest Juozapas Vaitkevičius. In the fourteen chapels, the usual 14 Stations of the Cross can be found. In early 1970s, the chapels were demolished, but once Lithuania regained independence they were rebuilt.</p>',
+  description: 'Church of St. Stanislaus the Bishop is a wooden Roman Catholic church in Beržoras, Plungė District Municipality, Lithuania. The church complex includes a 14-station outdoor Way of the Cross.  It is said that a shepherd saw a painting of the Holy Virgin Mary in a treetop. The priests brought the painting down and took it to the Plateliai church; however, the painting disappeared from the church and reappeared in the same place in the treetop. According to the legend, it was then decided to build a new church on this spot where the painting would hang.The first building of the complex, the wooden chapel of St. John of Nepomuk, rose no later than in the 18th century. Unfortunately, the exact date is not known. Eventually, the number of Christians in the village grew so that they could not fit into the chapel. Thus, in 1746 a larger church was built and it was given the title of St. Stanislaus the Bishop. The church has the characteristics of Lithuanian folk architecture, with a wooden and cross-shaped design. However, the main altar of the church is considered to be Baroque in style, and there are four altars in total.The Calvary of Beržoras has been in use since 1760, and is the only Calvary to be established in the 18th-century Lithuania. The Calvary was established by the parish priest Juozapas Vaitkevičius. In the fourteen chapels, the usual 14 Stations of the Cross can be found. In early 1970s, the chapels were demolished, but once Lithuania regained independence they were rebuilt.',
   address: 'Beržoras, Platelių pšt., 90036 Plungės r.',
   image: 'https://upload.wikimedia.org/wikipedia/commons/9/96/Ber%C5%BEoro_%C5%A0v._Stanislovo_ba%C5%BEny%C4%8Dios_pastat%C5%B3_kompleksas_.jpg',
   website: 'https://en.wikipedia.org/wiki/Church_of_St._Stanislaus_the_Bishop,_Ber%C5%BEoras',
-  coordinates: [21.812835, 56.025181],
-  icon: 'embassy-11'
+  coordinates: [21.812835, 56.025181]
 }, {
   name: '14 Stations of the Cross',
-  description: '<p>Fourteen stations of the Cross. In the early 1960s, the chapels in Beržoras were demolished, but rebuilt after Lithuania regained its independence.</p>',
+  description: 'Fourteen stations of the Cross. In the early 1960s, the chapels in Beržoras were demolished, but rebuilt after Lithuania regained its independence.',
   address: 'Beržoras, Platelių pšt., 90036 Plungės r.',
   image: 'http://www.klasika-tradicijos.lt/wp-content/uploads/2019/11/berzoro-koplycios-6.png',
   website: 'http://www.klasika-tradicijos.lt/zemaitijos-grozis-berzoras-zemaicio-dvasine-tvirtove/',
   coordinates: [21.809302, 56.024373]
 }, {
   name: 'Farmhouse "Beržoro pakrantė"',
-  description: '<p>"Beržoro Pakrantė" is located next to Lake Beržoras and has the Žemaitija National Park product label. Guests have a great opportunity to stay in a cosy homestead with stunning views. In the evening you can relax in the sauna. Privacy, cosiness, cleanliness, excellent service and other amenities await you at the farmhouse to ensure your stay. In the evening you can book the sauna and hot tub.</p>',
+  description: '"Beržoro Pakrantė" is located next to Lake Beržoras and has the Žemaitija National Park product label. Guests have a great opportunity to stay in a cosy homestead with stunning views. In the evening you can relax in the sauna. Privacy, cosiness, cleanliness, excellent service and other amenities await you at the farmhouse to ensure your stay. In the evening you can book the sauna and hot tub.',
   address: 'Gaso g. 14, Beržoro k., Platelių sen., Plungės r.',
   image: 'https://lh3.googleusercontent.com/p/AF1QipPz0o-LdTwqGCoqrNbekzsUgwi4u3rckY-R2iI0=w1080-h608-p-no-v0',
   website: 'https://berzoro-pakrante.business.site/',
   coordinates: [21.810090, 56.024223]
 }, {
   name: 'Villa "AUKSINĖ GERVĖ"',
-  description: '<p> Lovely villa "AUKSINĖ GERVĖ" for an active and peaceful holiday. Apartments with terraces and stunning views of the lake. The lakeside vila is open in winter.</p>',
+  description: ' Lovely villa "AUKSINĖ GERVĖ" for an active and peaceful holiday. Apartments with terraces and stunning views of the lake. The lakeside vila is open in winter.',
   address: 'Gaso g. 10, Beržoro kaimas. Plungės raj. Lietuva.',
   image: 'https://www.visitplunge.lt/data/tourism_objects/large/2017_08_20_19_10_14.jpg',
   website: 'https://auksinegerve.lt/',
   coordinates: [21.810806, 56.024761]
 }, {
   name: 'Liepijas hiking trail',
-  description: '<p>If you want to follow the Liepijas walking route (4 km circular walking route), we would like to remind you that it runs through a natural forest, without a specially constructed surface. At the most interesting places along the route, there are information boards with intriguing facts about the local features. Red "acorns" on the trees will show you where to go.</p>',
+  description: 'If you want to follow the Liepijas walking route (4 km circular walking route), we would like to remind you that it runs through a natural forest, without a specially constructed surface. At the most interesting places along the route, there are information boards with intriguing facts about the local features. Red "acorns" on the trees will show you where to go.',
   address: 'Plungės g. 12, Beržoro k., Plungės r.',
   image: 'https://www.lrt.lt/img/2019/07/26/480243-624487-1287x836.jpg',
   website: 'http://zemaitijosnp.lt/liepiju-pesciuju-trasa/',
   coordinates: [21.781655, 56.033205]
 }, {
   name: 'Siberia Observation Tower',
-  description: '<p>Climb up the 15-meter-high Siberia Observation Tower built on Cidabras Hill located 166 meter above sea level to feel the true greatness of Lake Plateliai of Samogitia. The tower gives breathtaking views of the surrounding lakes, forests, swamps and towns.</p>',
+  description: 'Climb up the 15-meter-high Siberia Observation Tower built on Cidabras Hill located 166 meter above sea level to feel the true greatness of Lake Plateliai of Samogitia. The tower gives breathtaking views of the surrounding lakes, forests, swamps and towns.',
   address: 'Beržoras, Platelių pšt., 90036 Plungės r.',
   image: 'https://www.campingroutes.com/data/tourism_objects/large/34_1.jpg',
   website: 'https://www.campingroutes.com/en/sightseeing-places/siberian-viewing-tower/',
@@ -2917,46 +2916,46 @@ const listItems = [{
   address: 'Plungės g. 42, Beržoro k., Platelių sen., Plungės r 42, Beržoras 9041',
   website: 'http://www.pastevukus.lt/',
   image: 'https://images.squarespace-cdn.com/content/v1/53172b1be4b0cc8a5401db4a/1609355963935-0CNNWIS820NAT6XFOOWL/IMG_9427.jpg?format=750w',
-  description: '<p>Rural tourism homestead. Ethnographic-style spacious and welcoming house on the shores of Lake Beržoras. It is an ideal place for your holidays or business meetings.</p>',
+  description: 'Rural tourism homestead. Ethnographic-style spacious and welcoming house on the shores of Lake Beržoras. It is an ideal place for your holidays or business meetings.',
   coordinates: [21.822492, 56.024017]
 }, {
   name: 'Homestead "Prie Beržoro ežero"',
-  description: '<p>You can rest peacefully with your family, relatives, or spending time with friends. Guest services – garden furniture, swing, water bicycle, boat, bicycles, basketball court, parking, night closed gate..</p>',
+  description: 'You can rest peacefully with your family, relatives, or spending time with friends. Guest services – garden furniture, swing, water bicycle, boat, bicycles, basketball court, parking, night closed gate..',
   address: 'Gaso street 12, Beržoras village, Plungės dstr.s',
   image: 'https://www.visitplunge.lt/data/tourism_objects/1inline/dsc_0541.jpg',
   website: 'https://www.atostogoskaime.lt/en/accommodation/prie-berzoro-ezero/',
   coordinates: [21.810838, 56.024324]
 }, {
   name: 'Homestead "Laumiu lankos"',
-  description: '<p>In "Laumiu lankos" the homestead you can relax by two lakes, Plateliai and Beržoras. Campers are supplied with electricity, there is a possibility to drain sewage and fill with water..</p>',
+  description: 'In "Laumiu lankos" the homestead you can relax by two lakes, Plateliai and Beržoras. Campers are supplied with electricity, there is a possibility to drain sewage and fill with water..',
   address: 'Plunge district, Plateliai eldership Laumalenku village, Plunges str. 5',
   image: 'https://static.wixstatic.com/media/74e96a_28a1b88a0d634e69b0c7227335532fa7~mv2.jpg',
   website: 'https://www.laumiulankos.lt/',
   coordinates: [21.830224, 56.020245]
 }, {
   name: 'Homestead "Ežero bangelė"',
-  description: '<p>In the homestead, which is located by lakes and forests, you will not only have a great rest, but you will also experience unforgettable impressions. Whether you like a relaxing or active holiday, whether you just want to meet and chat with friends, or whether you want to do it all together, here are the perfect conditions for it! Cosy cottages and welcoming hosts, the beautiful nature of the National Park, great opportunities for hiking, cycling, swimming and many attractions in the surrounding area - all this for you.</p>',
+  description: 'In the homestead, which is located by lakes and forests, you will not only have a great rest, but you will also experience unforgettable impressions. Whether you like a relaxing or active holiday, whether you just want to meet and chat with friends, or whether you want to do it all together, here are the perfect conditions for it! Cosy cottages and welcoming hosts, the beautiful nature of the National Park, great opportunities for hiking, cycling, swimming and many attractions in the surrounding area - all this for you.',
   address: 'Plungės g.25, Beržoro kaimas Platelių sen., Plungės rajonas',
   image: 'http://www.ezerobangele.lt/images/galerija/DSC00006.jpg',
   website: 'http://www.ezerobangele.lt/',
   coordinates: [21.816465, 56.024388]
 }, {
   name: 'Farmstead "Prie Žiedelio"',
-  description: '<p>Rural tourism farmstead “Prie Žiedelio” is located in the Samogitia National Park, in the grange, in the beautiful corner of nature on the shore of Žiedelis lake.</p>',
+  description: 'Rural tourism farmstead “Prie Žiedelio” is located in the Samogitia National Park, in the grange, in the beautiful corner of nature on the shore of Žiedelis lake.',
   address: 'Plunge district, Plateliai eldership Laumalenku village, Plunges str. 5',
   image: 'https://www.prieziedelio.lt/wp-content/uploads/2020/04/4-1-scaled.jpg',
   website: 'https://www.prieziedelio.lt/',
   coordinates: [21.830669, 56.015463]
 }, {
   name: 'Villa “Laumiu lankos”',
-  description: '<p>In the mornings, you can enjoy a delicious cup of coffee on the terrace, and in the evenings, you can cozy up to the sun or enjoy the company of friends.</p>',
+  description: 'In the mornings, you can enjoy a delicious cup of coffee on the terrace, and in the evenings, you can cozy up to the sun or enjoy the company of friends.',
   address: 'Plungės r., Laumalenkų km., Plungės g. 20',
   image: 'https://www.visitplunge.lt/data/tourism_objects/large/web_82.jpg',
   website: 'https://www.prieziedelio.lt/',
   coordinates: [21.837732, 56.012879]
 }, {
   name: 'Povilo Sukausko tourist camp”',
-  description: '<p>Cosy place near the lake.</p>',
+  description: 'Cosy place near the lake.',
   address: 'Plungės g. 12, Beržoro k., Plungės r.',
   image: 'https://www.visitplunge.lt/data/tourism_objects/large/dsc_0055.jpg',
   website: 'https://www.visitplunge.lt/apgyvendinimas/povilo-sukausko-turistine-stovykla/',
@@ -3210,7 +3209,7 @@ function get_each_context(ctx, list, i) {
   child_ctx[4] = list[i];
   child_ctx[6] = i;
   return child_ctx;
-} // (148:2) {#each listItems as listItem, index}
+} // (179:2) {#each listItems as listItem, index}
 
 
 function create_each_block(ctx) {
@@ -3227,7 +3226,7 @@ function create_each_block(ctx) {
   let t1;
   let a_href_value;
   let t2;
-  let html_tag;
+  let p;
   let raw_value =
   /*listItem*/
   ctx[4].description + "";
@@ -3241,27 +3240,30 @@ function create_each_block(ctx) {
       h2 = (0, _internal.element)("h2");
       t1 = (0, _internal.text)(t1_value);
       t2 = (0, _internal.space)();
-      html_tag = new _internal.HtmlTag();
+      p = (0, _internal.element)("p");
       if (!(0, _internal.src_url_equal)(img.src, img_src_value =
       /*listItem*/
       ctx[4].image)) (0, _internal.attr_dev)(img, "src", img_src_value);
       (0, _internal.attr_dev)(img, "alt", img_alt_value =
       /*listItem*/
       ctx[4].name);
-      (0, _internal.attr_dev)(img, "class", "svelte-143ai33");
-      (0, _internal.add_location)(img, file, 150, 8, 3429);
-      (0, _internal.add_location)(h2, file, 151, 8, 3489);
+      (0, _internal.attr_dev)(img, "loading", "lazy");
+      (0, _internal.attr_dev)(img, "class", "svelte-kzi81y");
+      (0, _internal.add_location)(img, file, 181, 8, 4461);
+      (0, _internal.attr_dev)(h2, "class", "svelte-kzi81y");
+      (0, _internal.add_location)(h2, file, 182, 8, 4537);
       (0, _internal.attr_dev)(a, "href", a_href_value =
       /*listItem*/
       ctx[4].website);
       (0, _internal.attr_dev)(a, "target", "_blank");
-      (0, _internal.add_location)(a, file, 149, 6, 3375);
-      html_tag.a = null;
-      (0, _internal.attr_dev)(div, "class", "list-item svelte-143ai33");
+      (0, _internal.add_location)(a, file, 180, 6, 4407);
+      (0, _internal.attr_dev)(p, "class", "svelte-kzi81y");
+      (0, _internal.add_location)(p, file, 186, 6, 4599);
+      (0, _internal.attr_dev)(div, "class", "list-item svelte-kzi81y");
       (0, _internal.attr_dev)(div, "id", div_id_value = "list-item-" +
       /*index*/
       ctx[6]);
-      (0, _internal.add_location)(div, file, 148, 4, 3322);
+      (0, _internal.add_location)(div, file, 179, 4, 4354);
     },
     m: function mount(target, anchor) {
       (0, _internal.insert_dev)(target, div, anchor);
@@ -3271,7 +3273,8 @@ function create_each_block(ctx) {
       (0, _internal.append_dev)(a, h2);
       (0, _internal.append_dev)(h2, t1);
       (0, _internal.append_dev)(div, t2);
-      html_tag.m(raw_value, div);
+      (0, _internal.append_dev)(div, p);
+      p.innerHTML = raw_value;
     },
     p: _internal.noop,
     d: function destroy(detaching) {
@@ -3282,7 +3285,7 @@ function create_each_block(ctx) {
     block,
     id: create_each_block.name,
     type: "each",
-    source: "(148:2) {#each listItems as listItem, index}",
+    source: "(179:2) {#each listItems as listItem, index}",
     ctx
   });
   return block;
@@ -3317,7 +3320,7 @@ function create_fragment(ctx) {
       div1.textContent = "Explore Beržoras:";
       t2 = (0, _internal.space)();
       div2 = (0, _internal.element)("div");
-      div2.textContent = "the top things to do,\n       where to stay and what to see";
+      div2.textContent = "the top things to do, where to stay and what to see...";
       t4 = (0, _internal.space)();
 
       for (let i = 0; i < each_blocks.length; i += 1) {
@@ -3330,18 +3333,18 @@ function create_fragment(ctx) {
       (0, _internal.set_style)(div0, "height", "40px");
       (0, _internal.set_style)(div0, "width", "150px");
       (0, _internal.set_style)(div0, "filter", "invert(88%)");
-      (0, _internal.add_location)(div0, file, 136, 4, 2941);
-      (0, _internal.attr_dev)(div1, "class", "typed-in svelte-143ai33");
-      (0, _internal.add_location)(div1, file, 140, 2, 3117);
-      (0, _internal.attr_dev)(div2, "class", "typed-out svelte-143ai33");
-      (0, _internal.add_location)(div2, file, 141, 4, 3168);
-      (0, _internal.attr_dev)(div3, "class", "head svelte-143ai33");
-      (0, _internal.add_location)(div3, file, 135, 2, 2918);
-      (0, _internal.attr_dev)(div4, "class", "tail svelte-143ai33");
-      (0, _internal.add_location)(div4, file, 156, 2, 3583);
+      (0, _internal.add_location)(div0, file, 170, 4, 3981);
+      (0, _internal.attr_dev)(div1, "class", "typed-in svelte-kzi81y");
+      (0, _internal.add_location)(div1, file, 173, 4, 4156);
+      (0, _internal.attr_dev)(div2, "class", "typed-out svelte-kzi81y");
+      (0, _internal.add_location)(div2, file, 174, 4, 4206);
+      (0, _internal.attr_dev)(div3, "class", "head svelte-kzi81y");
+      (0, _internal.add_location)(div3, file, 169, 2, 3958);
+      (0, _internal.attr_dev)(div4, "class", "tail svelte-kzi81y");
+      (0, _internal.add_location)(div4, file, 189, 2, 4658);
       (0, _internal.attr_dev)(div5, "id", "list-items");
-      (0, _internal.attr_dev)(div5, "class", "svelte-143ai33");
-      (0, _internal.add_location)(div5, file, 134, 0, 2872);
+      (0, _internal.attr_dev)(div5, "class", "svelte-kzi81y");
+      (0, _internal.add_location)(div5, file, 168, 0, 3912);
     },
     l: function claim(nodes) {
       throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -35744,7 +35747,7 @@ function create_fragment(ctx) {
       div = (0, _internal.element)("div");
       (0, _internal.attr_dev)(div, "id", "map");
       (0, _internal.attr_dev)(div, "class", "svelte-sq7u9y");
-      (0, _internal.add_location)(div, file, 120, 0, 3068);
+      (0, _internal.add_location)(div, file, 120, 0, 3090);
     },
     l: function claim(nodes) {
       throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -35777,7 +35780,7 @@ function generateFeature({
   return {
     type: 'Feature',
     properties: {
-      description: '<img width="100%" src="${image}"/><b>${name}</b>',
+      description: `<img width="100%" src="${image}" loading="lazy"/><b>${name}</b>`,
       id: index
     },
     geometry: {
@@ -35803,7 +35806,7 @@ function instance($$self, $$props, $$invalidate) {
       style: 'mapbox://styles/mapbox/light-v10?optimize=true',
       center: [21.814528, 56.025639],
       // listItems[0].coordinates,
-      zoom: 14,
+      zoom: 13,
       bearing: 15,
       pitch: 60
     });
@@ -35851,12 +35854,14 @@ function instance($$self, $$props, $$invalidate) {
     if (mapRef) {
       mapRef.flyTo({
         center: _consts.listItems[newActiveMapItem].coordinates,
-        zoom: 18
+        zoom: 17
       });
-      document.getElementById('list-item-' + newActiveMapItem).classList.add('active_list');
-    } // document.getElementById('list-item-' + newActiveMapItem).classList.remove('active');
+    } // document
+    // .getElementById('list-item-' + newActiveMapItem)
 
-  }); // Remove listener on unmount
+  }); // .classList.add('active_list');
+  // document.getElementById('list-item-' + newActiveMapItem).classList.remove('active');
+  // Remove listener on unmount
 
 
   (0, _svelte.onDestroy)(unsubscribeActiveMapItem);
@@ -35946,12 +35951,12 @@ function create_fragment(ctx) {
       t = (0, _internal.space)();
       div1 = (0, _internal.element)("div");
       (0, _internal.create_component)(map.$$.fragment);
-      (0, _internal.attr_dev)(div0, "class", "pane left svelte-15kh7jb");
-      (0, _internal.add_location)(div0, file, 39, 2, 583);
-      (0, _internal.attr_dev)(div1, "class", "pane right svelte-15kh7jb");
-      (0, _internal.add_location)(div1, file, 42, 2, 631);
-      (0, _internal.attr_dev)(div2, "class", "container svelte-15kh7jb");
-      (0, _internal.add_location)(div2, file, 38, 0, 557);
+      (0, _internal.attr_dev)(div0, "class", "pane left svelte-1zqm28");
+      (0, _internal.add_location)(div0, file, 39, 2, 593);
+      (0, _internal.attr_dev)(div1, "class", "pane right svelte-1zqm28");
+      (0, _internal.add_location)(div1, file, 42, 2, 641);
+      (0, _internal.attr_dev)(div2, "class", "container svelte-1zqm28");
+      (0, _internal.add_location)(div2, file, 38, 0, 567);
     },
     l: function claim(nodes) {
       throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -36073,7 +36078,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33145" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38507" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
