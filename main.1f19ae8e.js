@@ -2880,7 +2880,7 @@ const listItems = [{
   name: '14 Stations of the Cross',
   description: 'Fourteen stations of the Cross. In the early 1960s, the chapels in Beržoras were demolished, but rebuilt after Lithuania regained its independence.',
   address: 'Beržoras, Platelių pšt., 90036 Plungės r.',
-  image: 'http://www.klasika-tradicijos.lt/wp-content/uploads/2019/11/berzoro-koplycios-6.png',
+  image: 'https://vilniausgalerija.lt/wp-content/uploads/2020/07/59B-scaled-e1594664098185.jpg',
   website: 'http://www.klasika-tradicijos.lt/zemaitijos-grozis-berzoras-zemaicio-dvasine-tvirtove/',
   coordinates: [21.809302, 56.024373]
 }, {
@@ -36078,7 +36078,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38507" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "43643" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
