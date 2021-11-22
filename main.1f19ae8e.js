@@ -2860,7 +2860,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.sprudgeArticle = exports.listItems = exports.accessToken = void 0;
 const sprudgeArticle = 'https://sprudge.com/the-sprudge-guide-to-coffee-in-kyoto-128389.html';
 exports.sprudgeArticle = sprudgeArticle;
-const accessToken = 'pk.eyJ1IjoiYnVyY2UiLCJhIjoiY2s0M2huOWhkMDgydDNrcnF6NGZhYnJlZSJ9._HWRFgau8GQulfNwSzyIlQ';
+const accessToken = 'sk.eyJ1IjoiZ2UyYXMiLCJhIjoiY2t3YWIwOHBsN290cTJ1bzB5bGZkaXZ1eCJ9.uVQ8QEeNJ3SVrQ-p8StL6w';
 exports.accessToken = accessToken;
 const listItems = [{
   name: '',
@@ -3210,7 +3210,7 @@ function get_each_context(ctx, list, i) {
   child_ctx[4] = list[i];
   child_ctx[6] = i;
   return child_ctx;
-} // (114:2) {#each listItems as listItem, index}
+} // (148:2) {#each listItems as listItem, index}
 
 
 function create_each_block(ctx) {
@@ -3248,21 +3248,20 @@ function create_each_block(ctx) {
       (0, _internal.attr_dev)(img, "alt", img_alt_value =
       /*listItem*/
       ctx[4].name);
-      (0, _internal.attr_dev)(img, "loading", "lazy");
-      (0, _internal.attr_dev)(img, "class", "svelte-7iu71u");
-      (0, _internal.add_location)(img, file, 116, 8, 2757);
-      (0, _internal.add_location)(h2, file, 117, 8, 2833);
+      (0, _internal.attr_dev)(img, "class", "svelte-143ai33");
+      (0, _internal.add_location)(img, file, 150, 8, 3429);
+      (0, _internal.add_location)(h2, file, 151, 8, 3489);
       (0, _internal.attr_dev)(a, "href", a_href_value =
       /*listItem*/
       ctx[4].website);
       (0, _internal.attr_dev)(a, "target", "_blank");
-      (0, _internal.add_location)(a, file, 115, 6, 2703);
+      (0, _internal.add_location)(a, file, 149, 6, 3375);
       html_tag.a = null;
-      (0, _internal.attr_dev)(div, "class", "list-item svelte-7iu71u");
+      (0, _internal.attr_dev)(div, "class", "list-item svelte-143ai33");
       (0, _internal.attr_dev)(div, "id", div_id_value = "list-item-" +
       /*index*/
       ctx[6]);
-      (0, _internal.add_location)(div, file, 114, 4, 2650);
+      (0, _internal.add_location)(div, file, 148, 4, 3322);
     },
     m: function mount(target, anchor) {
       (0, _internal.insert_dev)(target, div, anchor);
@@ -3283,21 +3282,23 @@ function create_each_block(ctx) {
     block,
     id: create_each_block.name,
     type: "each",
-    source: "(114:2) {#each listItems as listItem, index}",
+    source: "(148:2) {#each listItems as listItem, index}",
     ctx
   });
   return block;
 }
 
 function create_fragment(ctx) {
-  let div4;
-  let div2;
+  let div5;
+  let div3;
   let div0;
   let t0;
   let div1;
   let t2;
-  let t3;
-  let div3;
+  let div2;
+  let t4;
+  let t5;
+  let div4;
   let each_value = _consts.listItems;
   (0, _internal.validate_each_argument)(each_value);
   let each_blocks = [];
@@ -3308,55 +3309,62 @@ function create_fragment(ctx) {
 
   const block = {
     c: function create() {
-      div4 = (0, _internal.element)("div");
-      div2 = (0, _internal.element)("div");
+      div5 = (0, _internal.element)("div");
+      div3 = (0, _internal.element)("div");
       div0 = (0, _internal.element)("div");
       t0 = (0, _internal.space)();
       div1 = (0, _internal.element)("div");
-      div1.textContent = "Explore Beržoras: the top things to do, where to stay and what to see";
+      div1.textContent = "Explore Beržoras:";
       t2 = (0, _internal.space)();
+      div2 = (0, _internal.element)("div");
+      div2.textContent = "the top things to do,\n       where to stay and what to see";
+      t4 = (0, _internal.space)();
 
       for (let i = 0; i < each_blocks.length; i += 1) {
         each_blocks[i].c();
       }
 
-      t3 = (0, _internal.space)();
-      div3 = (0, _internal.element)("div");
+      t5 = (0, _internal.space)();
+      div4 = (0, _internal.element)("div");
       (0, _internal.set_style)(div0, "background", "transparent url(https://wttr.in/Berzoras_0tqp_lang=en.png?format=3) no-repeat");
       (0, _internal.set_style)(div0, "height", "40px");
       (0, _internal.set_style)(div0, "width", "150px");
       (0, _internal.set_style)(div0, "filter", "invert(88%)");
-      (0, _internal.add_location)(div0, file, 106, 4, 2312);
-      (0, _internal.attr_dev)(div1, "class", "typed-out svelte-7iu71u");
-      (0, _internal.add_location)(div1, file, 109, 4, 2487);
-      (0, _internal.attr_dev)(div2, "class", "head svelte-7iu71u");
-      (0, _internal.add_location)(div2, file, 105, 2, 2289);
-      (0, _internal.attr_dev)(div3, "class", "tail svelte-7iu71u");
-      (0, _internal.add_location)(div3, file, 122, 2, 2927);
-      (0, _internal.attr_dev)(div4, "id", "list-items");
-      (0, _internal.attr_dev)(div4, "class", "svelte-7iu71u");
-      (0, _internal.add_location)(div4, file, 104, 0, 2243);
+      (0, _internal.add_location)(div0, file, 136, 4, 2941);
+      (0, _internal.attr_dev)(div1, "class", "typed-in svelte-143ai33");
+      (0, _internal.add_location)(div1, file, 140, 2, 3117);
+      (0, _internal.attr_dev)(div2, "class", "typed-out svelte-143ai33");
+      (0, _internal.add_location)(div2, file, 141, 4, 3168);
+      (0, _internal.attr_dev)(div3, "class", "head svelte-143ai33");
+      (0, _internal.add_location)(div3, file, 135, 2, 2918);
+      (0, _internal.attr_dev)(div4, "class", "tail svelte-143ai33");
+      (0, _internal.add_location)(div4, file, 156, 2, 3583);
+      (0, _internal.attr_dev)(div5, "id", "list-items");
+      (0, _internal.attr_dev)(div5, "class", "svelte-143ai33");
+      (0, _internal.add_location)(div5, file, 134, 0, 2872);
     },
     l: function claim(nodes) {
       throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     },
     m: function mount(target, anchor) {
-      (0, _internal.insert_dev)(target, div4, anchor);
-      (0, _internal.append_dev)(div4, div2);
-      (0, _internal.append_dev)(div2, div0);
-      (0, _internal.append_dev)(div2, t0);
-      (0, _internal.append_dev)(div2, div1);
-      (0, _internal.append_dev)(div4, t2);
+      (0, _internal.insert_dev)(target, div5, anchor);
+      (0, _internal.append_dev)(div5, div3);
+      (0, _internal.append_dev)(div3, div0);
+      (0, _internal.append_dev)(div3, t0);
+      (0, _internal.append_dev)(div3, div1);
+      (0, _internal.append_dev)(div3, t2);
+      (0, _internal.append_dev)(div3, div2);
+      (0, _internal.append_dev)(div5, t4);
 
       for (let i = 0; i < each_blocks.length; i += 1) {
-        each_blocks[i].m(div4, null);
+        each_blocks[i].m(div5, null);
       }
 
-      (0, _internal.append_dev)(div4, t3);
-      (0, _internal.append_dev)(div4, div3);
-      /*div4_binding*/
+      (0, _internal.append_dev)(div5, t5);
+      (0, _internal.append_dev)(div5, div4);
+      /*div5_binding*/
 
-      ctx[1](div4);
+      ctx[1](div5);
     },
     p: function update(ctx, [dirty]) {
       if (dirty &
@@ -3374,7 +3382,7 @@ function create_fragment(ctx) {
           } else {
             each_blocks[i] = create_each_block(child_ctx);
             each_blocks[i].c();
-            each_blocks[i].m(div4, t3);
+            each_blocks[i].m(div5, t5);
           }
         }
 
@@ -3388,9 +3396,9 @@ function create_fragment(ctx) {
     i: _internal.noop,
     o: _internal.noop,
     d: function destroy(detaching) {
-      if (detaching) (0, _internal.detach_dev)(div4);
+      if (detaching) (0, _internal.detach_dev)(div5);
       (0, _internal.destroy_each)(each_blocks, detaching);
-      /*div4_binding*/
+      /*div5_binding*/
 
       ctx[1](null);
     }
@@ -3444,7 +3452,7 @@ function instance($$self, $$props, $$invalidate) {
     if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<List> was created with unknown prop '${key}'`);
   });
 
-  function div4_binding($$value) {
+  function div5_binding($$value) {
     _internal.binding_callbacks[$$value ? 'unshift' : 'push'](() => {
       listRef = $$value;
       $$invalidate(0, listRef);
@@ -3472,7 +3480,7 @@ function instance($$self, $$props, $$invalidate) {
     $$self.$inject_state($$props.$$inject);
   }
 
-  return [listRef, div4_binding];
+  return [listRef, div5_binding];
 }
 
 class List extends _internal.SvelteComponentDev {
@@ -35727,9 +35735,6 @@ var _consts = require("./consts");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /* components/Map.svelte generated by Svelte v3.44.2 */
-const {
-  console: console_1
-} = _internal.globals;
 const file = "components/Map.svelte";
 
 function create_fragment(ctx) {
@@ -35739,7 +35744,7 @@ function create_fragment(ctx) {
       div = (0, _internal.element)("div");
       (0, _internal.attr_dev)(div, "id", "map");
       (0, _internal.attr_dev)(div, "class", "svelte-sq7u9y");
-      (0, _internal.add_location)(div, file, 128, 0, 3282);
+      (0, _internal.add_location)(div, file, 120, 0, 3068);
     },
     l: function claim(nodes) {
       throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -35772,7 +35777,7 @@ function generateFeature({
   return {
     type: 'Feature',
     properties: {
-      description: `<img width="100%" src="${image}"/><b>${name}</b>`,
+      description: '<img width="100%" src="${image}"/><b>${name}</b>',
       id: index
     },
     geometry: {
@@ -35790,18 +35795,17 @@ function instance($$self, $$props, $$invalidate) {
   (0, _internal.validate_slots)('Map', slots, []);
   let mapRef;
   (0, _svelte.onMount)(async () => {
-    _mapboxGl.default.accessToken = _consts.accessToken;
-    console.log('map loaded'); // Create the map
+    _mapboxGl.default.accessToken = _consts.accessToken; // console.log('map loaded');
+    // Create the map
 
     mapRef = new _mapboxGl.default.Map({
       container: 'map',
       style: 'mapbox://styles/mapbox/light-v10?optimize=true',
       center: [21.814528, 56.025639],
       // listItems[0].coordinates,
-      zoom: 13,
-      essential: true,
+      zoom: 14,
       bearing: 15,
-      pitch: 65
+      pitch: 60
     });
     mapRef.on('load', function () {
       // Add markers to map
@@ -35819,9 +35823,6 @@ function instance($$self, $$props, $$invalidate) {
           'icon-image': 'embassy-11',
           'icon-size': 2,
           'icon-allow-overlap': true
-        },
-        paint: {
-          'icon-color': '#00FF00'
         }
       }); // When clicking on a map marker
 
@@ -35850,12 +35851,9 @@ function instance($$self, $$props, $$invalidate) {
     if (mapRef) {
       mapRef.flyTo({
         center: _consts.listItems[newActiveMapItem].coordinates,
-        zoom: 18,
-        essential: true,
-        color: '#F84C4C'
+        zoom: 18
       });
-      mapRef.setLayoutProperty('markers', 'icon-image', 'square-15-theme');
-      document.getElementById('list-item-' + newActiveMapItem).classList.add('active');
+      document.getElementById('list-item-' + newActiveMapItem).classList.add('active_list');
     } // document.getElementById('list-item-' + newActiveMapItem).classList.remove('active');
 
   }); // Remove listener on unmount
@@ -35864,7 +35862,7 @@ function instance($$self, $$props, $$invalidate) {
   (0, _svelte.onDestroy)(unsubscribeActiveMapItem);
   const writable_props = [];
   Object.keys($$props).forEach(key => {
-    if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console_1.warn(`<Map> was created with unknown prop '${key}'`);
+    if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<Map> was created with unknown prop '${key}'`);
   });
 
   $$self.$capture_state = () => ({
@@ -35948,12 +35946,12 @@ function create_fragment(ctx) {
       t = (0, _internal.space)();
       div1 = (0, _internal.element)("div");
       (0, _internal.create_component)(map.$$.fragment);
-      (0, _internal.attr_dev)(div0, "class", "pane left svelte-7el3h0");
-      (0, _internal.add_location)(div0, file, 32, 2, 469);
-      (0, _internal.attr_dev)(div1, "class", "pane right svelte-7el3h0");
-      (0, _internal.add_location)(div1, file, 35, 2, 517);
-      (0, _internal.attr_dev)(div2, "class", "container svelte-7el3h0");
-      (0, _internal.add_location)(div2, file, 31, 0, 443);
+      (0, _internal.attr_dev)(div0, "class", "pane left svelte-15kh7jb");
+      (0, _internal.add_location)(div0, file, 39, 2, 583);
+      (0, _internal.attr_dev)(div1, "class", "pane right svelte-15kh7jb");
+      (0, _internal.add_location)(div1, file, 42, 2, 631);
+      (0, _internal.attr_dev)(div2, "class", "container svelte-15kh7jb");
+      (0, _internal.add_location)(div2, file, 38, 0, 557);
     },
     l: function claim(nodes) {
       throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -36075,7 +36073,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36235" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36699" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
