@@ -3248,18 +3248,18 @@ function create_each_block(ctx) {
       /*listItem*/
       ctx[4].name);
       (0, _internal.attr_dev)(img, "loading", "lazy");
-      (0, _internal.attr_dev)(img, "class", "svelte-kzi81y");
+      (0, _internal.attr_dev)(img, "class", "svelte-1b0cbog");
       (0, _internal.add_location)(img, file, 181, 8, 4461);
-      (0, _internal.attr_dev)(h2, "class", "svelte-kzi81y");
+      (0, _internal.attr_dev)(h2, "class", "svelte-1b0cbog");
       (0, _internal.add_location)(h2, file, 182, 8, 4537);
       (0, _internal.attr_dev)(a, "href", a_href_value =
       /*listItem*/
       ctx[4].website);
       (0, _internal.attr_dev)(a, "target", "_blank");
       (0, _internal.add_location)(a, file, 180, 6, 4407);
-      (0, _internal.attr_dev)(p, "class", "svelte-kzi81y");
+      (0, _internal.attr_dev)(p, "class", "svelte-1b0cbog");
       (0, _internal.add_location)(p, file, 186, 6, 4599);
-      (0, _internal.attr_dev)(div, "class", "list-item svelte-kzi81y");
+      (0, _internal.attr_dev)(div, "class", "list-item svelte-1b0cbog");
       (0, _internal.attr_dev)(div, "id", div_id_value = "list-item-" +
       /*index*/
       ctx[6]);
@@ -3334,16 +3334,16 @@ function create_fragment(ctx) {
       (0, _internal.set_style)(div0, "width", "150px");
       (0, _internal.set_style)(div0, "filter", "invert(88%)");
       (0, _internal.add_location)(div0, file, 170, 4, 3981);
-      (0, _internal.attr_dev)(div1, "class", "typed-in svelte-kzi81y");
+      (0, _internal.attr_dev)(div1, "class", "typed-in svelte-1b0cbog");
       (0, _internal.add_location)(div1, file, 173, 4, 4156);
-      (0, _internal.attr_dev)(div2, "class", "typed-out svelte-kzi81y");
+      (0, _internal.attr_dev)(div2, "class", "typed-out svelte-1b0cbog");
       (0, _internal.add_location)(div2, file, 174, 4, 4206);
-      (0, _internal.attr_dev)(div3, "class", "head svelte-kzi81y");
+      (0, _internal.attr_dev)(div3, "class", "head svelte-1b0cbog");
       (0, _internal.add_location)(div3, file, 169, 2, 3958);
-      (0, _internal.attr_dev)(div4, "class", "tail svelte-kzi81y");
+      (0, _internal.attr_dev)(div4, "class", "tail svelte-1b0cbog");
       (0, _internal.add_location)(div4, file, 189, 2, 4658);
       (0, _internal.attr_dev)(div5, "id", "list-items");
-      (0, _internal.attr_dev)(div5, "class", "svelte-kzi81y");
+      (0, _internal.attr_dev)(div5, "class", "svelte-1b0cbog");
       (0, _internal.add_location)(div5, file, 168, 0, 3912);
     },
     l: function claim(nodes) {
@@ -35951,12 +35951,12 @@ function create_fragment(ctx) {
       t = (0, _internal.space)();
       div1 = (0, _internal.element)("div");
       (0, _internal.create_component)(map.$$.fragment);
-      (0, _internal.attr_dev)(div0, "class", "pane left svelte-1zqm28");
-      (0, _internal.add_location)(div0, file, 39, 2, 593);
-      (0, _internal.attr_dev)(div1, "class", "pane right svelte-1zqm28");
-      (0, _internal.add_location)(div1, file, 42, 2, 641);
-      (0, _internal.attr_dev)(div2, "class", "container svelte-1zqm28");
-      (0, _internal.add_location)(div2, file, 38, 0, 567);
+      (0, _internal.attr_dev)(div0, "class", "pane left svelte-1ao0qf8");
+      (0, _internal.add_location)(div0, file, 55, 2, 832);
+      (0, _internal.attr_dev)(div1, "class", "pane right svelte-1ao0qf8");
+      (0, _internal.add_location)(div1, file, 58, 2, 880);
+      (0, _internal.attr_dev)(div2, "class", "container svelte-1ao0qf8");
+      (0, _internal.add_location)(div2, file, 54, 0, 806);
     },
     l: function claim(nodes) {
       throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -36078,7 +36078,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "43643" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33121" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
