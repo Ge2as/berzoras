@@ -3209,7 +3209,7 @@ function get_each_context(ctx, list, i) {
   child_ctx[4] = list[i];
   child_ctx[6] = i;
   return child_ctx;
-} // (179:2) {#each listItems as listItem, index}
+} // (173:2) {#each listItems as listItem, index}
 
 
 function create_each_block(ctx) {
@@ -3248,22 +3248,22 @@ function create_each_block(ctx) {
       /*listItem*/
       ctx[4].name);
       (0, _internal.attr_dev)(img, "loading", "lazy");
-      (0, _internal.attr_dev)(img, "class", "svelte-1b0cbog");
-      (0, _internal.add_location)(img, file, 181, 8, 4461);
-      (0, _internal.attr_dev)(h2, "class", "svelte-1b0cbog");
-      (0, _internal.add_location)(h2, file, 182, 8, 4537);
+      (0, _internal.attr_dev)(img, "class", "svelte-iw8ful");
+      (0, _internal.add_location)(img, file, 175, 8, 4255);
+      (0, _internal.attr_dev)(h2, "class", "svelte-iw8ful");
+      (0, _internal.add_location)(h2, file, 176, 8, 4331);
       (0, _internal.attr_dev)(a, "href", a_href_value =
       /*listItem*/
       ctx[4].website);
       (0, _internal.attr_dev)(a, "target", "_blank");
-      (0, _internal.add_location)(a, file, 180, 6, 4407);
-      (0, _internal.attr_dev)(p, "class", "svelte-1b0cbog");
-      (0, _internal.add_location)(p, file, 186, 6, 4599);
-      (0, _internal.attr_dev)(div, "class", "list-item svelte-1b0cbog");
+      (0, _internal.add_location)(a, file, 174, 6, 4201);
+      (0, _internal.attr_dev)(p, "class", "svelte-iw8ful");
+      (0, _internal.add_location)(p, file, 180, 6, 4393);
+      (0, _internal.attr_dev)(div, "class", "list-item svelte-iw8ful");
       (0, _internal.attr_dev)(div, "id", div_id_value = "list-item-" +
       /*index*/
       ctx[6]);
-      (0, _internal.add_location)(div, file, 179, 4, 4354);
+      (0, _internal.add_location)(div, file, 173, 4, 4148);
     },
     m: function mount(target, anchor) {
       (0, _internal.insert_dev)(target, div, anchor);
@@ -3285,7 +3285,7 @@ function create_each_block(ctx) {
     block,
     id: create_each_block.name,
     type: "each",
-    source: "(179:2) {#each listItems as listItem, index}",
+    source: "(173:2) {#each listItems as listItem, index}",
     ctx
   });
   return block;
@@ -3320,7 +3320,7 @@ function create_fragment(ctx) {
       div1.textContent = "Explore Beržoras:";
       t2 = (0, _internal.space)();
       div2 = (0, _internal.element)("div");
-      div2.textContent = "the top things to do, where to stay and what to see...";
+      div2.textContent = "Where to stay and what to see...";
       t4 = (0, _internal.space)();
 
       for (let i = 0; i < each_blocks.length; i += 1) {
@@ -3333,18 +3333,18 @@ function create_fragment(ctx) {
       (0, _internal.set_style)(div0, "height", "40px");
       (0, _internal.set_style)(div0, "width", "150px");
       (0, _internal.set_style)(div0, "filter", "invert(88%)");
-      (0, _internal.add_location)(div0, file, 170, 4, 3981);
-      (0, _internal.attr_dev)(div1, "class", "typed-in svelte-1b0cbog");
-      (0, _internal.add_location)(div1, file, 173, 4, 4156);
-      (0, _internal.attr_dev)(div2, "class", "typed-out svelte-1b0cbog");
-      (0, _internal.add_location)(div2, file, 174, 4, 4206);
-      (0, _internal.attr_dev)(div3, "class", "head svelte-1b0cbog");
-      (0, _internal.add_location)(div3, file, 169, 2, 3958);
-      (0, _internal.attr_dev)(div4, "class", "tail svelte-1b0cbog");
-      (0, _internal.add_location)(div4, file, 189, 2, 4658);
+      (0, _internal.add_location)(div0, file, 164, 4, 3797);
+      (0, _internal.attr_dev)(div1, "class", "typed-in svelte-iw8ful");
+      (0, _internal.add_location)(div1, file, 167, 4, 3972);
+      (0, _internal.attr_dev)(div2, "class", "typed-out svelte-iw8ful");
+      (0, _internal.add_location)(div2, file, 168, 4, 4022);
+      (0, _internal.attr_dev)(div3, "class", "head svelte-iw8ful");
+      (0, _internal.add_location)(div3, file, 163, 2, 3774);
+      (0, _internal.attr_dev)(div4, "class", "tail svelte-iw8ful");
+      (0, _internal.add_location)(div4, file, 183, 2, 4452);
       (0, _internal.attr_dev)(div5, "id", "list-items");
-      (0, _internal.attr_dev)(div5, "class", "svelte-1b0cbog");
-      (0, _internal.add_location)(div5, file, 168, 0, 3912);
+      (0, _internal.attr_dev)(div5, "class", "svelte-iw8ful");
+      (0, _internal.add_location)(div5, file, 162, 0, 3728);
     },
     l: function claim(nodes) {
       throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -35951,12 +35951,12 @@ function create_fragment(ctx) {
       t = (0, _internal.space)();
       div1 = (0, _internal.element)("div");
       (0, _internal.create_component)(map.$$.fragment);
-      (0, _internal.attr_dev)(div0, "class", "pane left svelte-1ao0qf8");
-      (0, _internal.add_location)(div0, file, 55, 2, 832);
-      (0, _internal.attr_dev)(div1, "class", "pane right svelte-1ao0qf8");
-      (0, _internal.add_location)(div1, file, 58, 2, 880);
-      (0, _internal.attr_dev)(div2, "class", "container svelte-1ao0qf8");
-      (0, _internal.add_location)(div2, file, 54, 0, 806);
+      (0, _internal.attr_dev)(div0, "class", "pane left svelte-qfxgkw");
+      (0, _internal.add_location)(div0, file, 57, 2, 899);
+      (0, _internal.attr_dev)(div1, "class", "pane right svelte-qfxgkw");
+      (0, _internal.add_location)(div1, file, 60, 2, 947);
+      (0, _internal.attr_dev)(div2, "class", "container svelte-qfxgkw");
+      (0, _internal.add_location)(div2, file, 56, 0, 873);
     },
     l: function claim(nodes) {
       throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -36078,7 +36078,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33121" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37405" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
