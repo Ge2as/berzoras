@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://berzoras.lt/sitemap.xml
+
