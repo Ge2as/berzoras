@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://berzoras.lt/sitemap.xml
-
+Sitemap: https://www.berzoras.lt/sitemap.xml
