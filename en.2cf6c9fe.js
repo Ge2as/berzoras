@@ -117,40 +117,23 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"manifest.json":[function(require,module,exports) {
+})({"lang/en.json":[function(require,module,exports) {
 module.exports = {
-  "name": "App",
-  "icons": [{
-    "src": "/android-icon-36x36.png",
-    "sizes": "36x36",
-    "type": "image/png",
-    "density": "0.75"
-  }, {
-    "src": "/android-icon-48x48.png",
-    "sizes": "48x48",
-    "type": "image/png",
-    "density": "1.0"
-  }, {
-    "src": "/android-icon-72x72.png",
-    "sizes": "72x72",
-    "type": "image/png",
-    "density": "1.5"
-  }, {
-    "src": "/android-icon-96x96.png",
-    "sizes": "96x96",
-    "type": "image/png",
-    "density": "2.0"
-  }, {
-    "src": "/android-icon-144x144.png",
-    "sizes": "144x144",
-    "type": "image/png",
-    "density": "3.0"
-  }, {
-    "src": "/android-icon-192x192.png",
-    "sizes": "192x192",
-    "type": "image/png",
-    "density": "4.0"
-  }]
+  "welcome": "Beržoras, where to stay and what to see...",
+  "description": "Beržoras is a hidden gem...",
+  "seniunija": "Plateliai Eldership",
+  "parkas": "Žemaitija National Park",
+  "savivaldybe": "Plungė District Municipality",
+  "bendruomene": "Beržoras community",
+  "seo_description": "Plan your trip to Beržoras Village, near tourist-favorite Plateliai, Lithuania. Discover landmarks, local culture, and find the best places to stay.",
+  "button_directions": "Get directions",
+  "title": "Explore Beržoras | where to stay and what to see in Plateliai region",
+  "upcoming": "Upcoming",
+  "waste_title": "Receive push notifications on your phone.",
+  "waste_content": "Subscribe to a topic 'berzoras_trac_waste' and receive notifications about upcoming next day waste pickups via the NTFY",
+  "or": "or",
+  "app": "app",
+  "waste_notice": "Never miss your waste collection day again!"
 };
 },{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -321,5 +304,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","manifest.json"], null)
-//# sourceMappingURL=/manifest.js.map
+},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","lang/en.json"], null)
+//# sourceMappingURL=/en.2cf6c9fe.js.map

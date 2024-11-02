@@ -117,40 +117,23 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"manifest.json":[function(require,module,exports) {
+})({"lang/lt.json":[function(require,module,exports) {
 module.exports = {
-  "name": "App",
-  "icons": [{
-    "src": "/android-icon-36x36.png",
-    "sizes": "36x36",
-    "type": "image/png",
-    "density": "0.75"
-  }, {
-    "src": "/android-icon-48x48.png",
-    "sizes": "48x48",
-    "type": "image/png",
-    "density": "1.0"
-  }, {
-    "src": "/android-icon-72x72.png",
-    "sizes": "72x72",
-    "type": "image/png",
-    "density": "1.5"
-  }, {
-    "src": "/android-icon-96x96.png",
-    "sizes": "96x96",
-    "type": "image/png",
-    "density": "2.0"
-  }, {
-    "src": "/android-icon-144x144.png",
-    "sizes": "144x144",
-    "type": "image/png",
-    "density": "3.0"
-  }, {
-    "src": "/android-icon-192x192.png",
-    "sizes": "192x192",
-    "type": "image/png",
-    "density": "4.0"
-  }]
+  "welcome": "Beržoras, kur apsistoti ir ką pamatyti...",
+  "description": "Beržoras yra paslėptas deimantas...",
+  "seniunija": "Platelių seniūnija",
+  "parkas": "Žemaitijos nac. parkas",
+  "savivaldybe": "Plungės savivaldybė",
+  "bendruomene": "Beržoro bendruomenė",
+  "seo_description": "Atraskite Beržoro kaimo žavesį! Suplanuokite savo kelionę į šį nuostabų Žemaitijos kampelį netoli Platelių. Čia rasite įžymybes, vietinės kultūros paslaptis ir geriausias vietas apsistoti. Nepraleiskite progos!",
+  "button_directions": "Gauti nuorodas",
+  "title": "Beržoras | ką pamatyti ir kur apsistoti",
+  "upcoming": "Surinkimas",
+  "waste_title": "Gaukite tiesioginius pranešimus savo telefone",
+  "waste_content": "Prenumeruokite temą 'berzoras_trac_waste' ir gaukite pranešimus apie sekančios dienos atliekų surinkimą per NTFY",
+  "or": "arba",
+  "app": "programėlę",
+  "waste_notice": "Daugiau niekada nepraleiskite atliekų surinkimo dienos!"
 };
 },{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -321,5 +304,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","manifest.json"], null)
-//# sourceMappingURL=/manifest.js.map
+},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","lang/lt.json"], null)
+//# sourceMappingURL=/lt.b9844141.js.map
