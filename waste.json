@@ -8,7 +8,7 @@
     "house_id": null,
     "schedule_id": "1",
     "type_id": "1",
-    "date": "2025-01-14",
+    "date": "2026-01-14",
     "name": "Mišrios komunalinės atliekos",
     "color": "#616161"
   },
@@ -21,7 +21,7 @@
     "house_id": null,
     "schedule_id": "2",
     "type_id": "1",
-    "date": "2025-01-28",
+    "date": "2026-01-28",
     "name": "Mišrios komunalinės atliekos",
     "color": "#616161"
   },
@@ -34,7 +34,7 @@
     "house_id": null,
     "schedule_id": "3",
     "type_id": "1",
-    "date": "2025-02-11",
+    "date": "2026-02-11",
     "name": "Mišrios komunalinės atliekos",
     "color": "#616161"
   },
@@ -47,7 +47,7 @@
     "house_id": null,
     "schedule_id": "4",
     "type_id": "1",
-    "date": "2025-03-11",
+    "date": "2026-03-11",
     "name": "Mišrios komunalinės atliekos",
     "color": "#616161"
   },
@@ -60,7 +60,7 @@
     "house_id": null,
     "schedule_id": "1",
     "type_id": "2",
-    "date": "2025-01-08",
+    "date": "2026-01-08",
     "name": "Pakuočių atliekos",
     "color": "#267ae8"
   },
@@ -73,7 +73,7 @@
     "house_id": null,
     "schedule_id": "2",
     "type_id": "2",
-    "date": "2025-02-05",
+    "date": "2026-02-05",
     "name": "Pakuočių atliekos",
     "color": "#267ae8"
   },
@@ -86,7 +86,7 @@
     "house_id": null,
     "schedule_id": "3",
     "type_id": "2",
-    "date": "2025-03-05",
+    "date": "2026-03-05",
     "name": "Pakuočių atliekos",
     "color": "#267ae8"
   },
@@ -99,7 +99,7 @@
     "house_id": null,
     "schedule_id": "4",
     "type_id": "2",
-    "date": "2025-04-02",
+    "date": "2026-04-02",
     "name": "Pakuočių atliekos",
     "color": "#267ae8"
   },
@@ -112,7 +112,7 @@
     "house_id": null,
     "schedule_id": "5",
     "type_id": "2",
-    "date": "2025-04-30",
+    "date": "2026-04-30",
     "name": "Pakuočių atliekos",
     "color": "#267ae8"
   },
@@ -125,7 +125,7 @@
     "house_id": null,
     "schedule_id": "6",
     "type_id": "2",
-    "date": "2025-05-28",
+    "date": "2026-05-28",
     "name": "Pakuočių atliekos",
     "color": "#267ae8"
   },
@@ -138,7 +138,7 @@
     "house_id": null,
     "schedule_id": "7",
     "type_id": "2",
-    "date": "2025-06-25",
+    "date": "2026-06-25",
     "name": "Pakuočių atliekos",
     "color": "#267ae8"
   },
@@ -151,7 +151,7 @@
     "house_id": null,
     "schedule_id": "8",
     "type_id": "2",
-    "date": "2025-07-23",
+    "date": "2026-07-23",
     "name": "Pakuočių atliekos",
     "color": "#267ae8"
   },
@@ -164,7 +164,7 @@
     "house_id": null,
     "schedule_id": "9",
     "type_id": "2",
-    "date": "2025-08-20",
+    "date": "2026-08-20",
     "name": "Pakuočių atliekos",
     "color": "#267ae8"
   },
@@ -177,7 +177,7 @@
     "house_id": null,
     "schedule_id": "10",
     "type_id": "2",
-    "date": "2025-09-17",
+    "date": "2026-09-17",
     "name": "Pakuočių atliekos",
     "color": "#267ae8"
   },
@@ -190,7 +190,7 @@
     "house_id": null,
     "schedule_id": "11",
     "type_id": "2",
-    "date": "2025-10-15",
+    "date": "2026-10-15",
     "name": "Pakuočių atliekos",
     "color": "#267ae8"
   },
@@ -203,7 +203,7 @@
     "house_id": null,
     "schedule_id": "12",
     "type_id": "2",
-    "date": "2025-11-12",
+    "date": "2026-11-12",
     "name": "Pakuočių atliekos",
     "color": "#267ae8"
   },
@@ -216,7 +216,7 @@
     "house_id": null,
     "schedule_id": "13",
     "type_id": "2",
-    "date": "2025-12-10",
+    "date": "2026-12-10",
     "name": "Pakuočių atliekos",
     "color": "#267ae8"
   },
@@ -229,7 +229,7 @@
     "house_id": null,
     "schedule_id": "1",
     "type_id": "3",
-    "date": "2025-01-27",
+    "date": "2026-01-27",
     "name": "Stiklo pakuotė",
     "color": "#85ea71"
   },
@@ -242,7 +242,7 @@
     "house_id": null,
     "schedule_id": "2",
     "type_id": "3",
-    "date": "2025-04-21",
+    "date": "2026-04-21",
     "name": "Stiklo pakuotė",
     "color": "#85ea71"
   },
@@ -255,7 +255,7 @@
     "house_id": null,
     "schedule_id": "3",
     "type_id": "3",
-    "date": "2025-07-14",
+    "date": "2026-07-14",
     "name": "Stiklo pakuotė",
     "color": "#85ea71"
   },
@@ -268,7 +268,7 @@
     "house_id": null,
     "schedule_id": "4",
     "type_id": "3",
-    "date": "2025-10-06",
+    "date": "2026-10-06",
     "name": "Stiklo pakuotė",
     "color": "#85ea71"
   },
@@ -281,7 +281,7 @@
     "house_id": null,
     "schedule_id": "5",
     "type_id": "3",
-    "date": "2025-12-29",
+    "date": "2026-12-29",
     "name": "Stiklo pakuotė",
     "color": "#85ea71"
   }
