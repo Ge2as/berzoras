@@ -147,44 +147,22 @@ const {
 const file = "components/List.svelte";
 function get_each_context(ctx, list, i) {
   const child_ctx = ctx.slice();
-  child_ctx[19] = list[i];
-  child_ctx[21] = i;
+  child_ctx[22] = list[i];
+  child_ctx[24] = i;
   return child_ctx;
 }
 
-// (1:0) <style>  .lname {   padding-top: 30px; }
+// (576:2) {:catch}
 function create_catch_block(ctx) {
-  const block = {
-    c: _internal.noop,
-    m: _internal.noop,
-    p: _internal.noop,
-    d: _internal.noop
-  };
-  (0, _internal.dispatch_dev)("SvelteRegisterBlock", {
-    block,
-    id: create_catch_block.name,
-    type: "catch",
-    source: "(1:0) <style>  .lname {   padding-top: 30px; }",
-    ctx
-  });
-  return block;
-}
-
-// (539:2) {:then weatherInfo}
-function create_then_block(ctx) {
   let p;
-  let t_1_value = /*weatherInfo*/ctx[22] + "";
-  let t_1;
   const block = {
     c: function create() {
       p = (0, _internal.element)("p");
-      t_1 = (0, _internal.text)(t_1_value);
       (0, _internal.attr_dev)(p, "class", "svelte-15t08fl");
-      (0, _internal.add_location)(p, file, 539, 4, 14854);
+      (0, _internal.add_location)(p, file, 576, 4, 16135);
     },
     m: function mount(target, anchor) {
       (0, _internal.insert_dev)(target, p, anchor);
-      (0, _internal.append_dev)(p, t_1);
     },
     p: _internal.noop,
     d: function destroy(detaching) {
@@ -193,33 +171,107 @@ function create_then_block(ctx) {
   };
   (0, _internal.dispatch_dev)("SvelteRegisterBlock", {
     block,
-    id: create_then_block.name,
-    type: "then",
-    source: "(539:2) {:then weatherInfo}",
+    id: create_catch_block.name,
+    type: "catch",
+    source: "(576:2) {:catch}",
     ctx
   });
   return block;
 }
 
-// (538:23)    {:then weatherInfo}
-function create_pending_block(ctx) {
+// (572:2) {:then weather}
+function create_then_block(ctx) {
+  let if_block_anchor;
+  let if_block = /*weather*/ctx[25] && /*weather*/ctx[25].current_condition && /*weather*/ctx[25].current_condition[0] && create_if_block(ctx);
   const block = {
-    c: _internal.noop,
-    m: _internal.noop,
+    c: function create() {
+      if (if_block) if_block.c();
+      if_block_anchor = (0, _internal.empty)();
+    },
+    m: function mount(target, anchor) {
+      if (if_block) if_block.m(target, anchor);
+      (0, _internal.insert_dev)(target, if_block_anchor, anchor);
+    },
+    p: function update(ctx, dirty) {
+      if ( /*weather*/ctx[25] && /*weather*/ctx[25].current_condition && /*weather*/ctx[25].current_condition[0]) if_block.p(ctx, dirty);
+    },
+    d: function destroy(detaching) {
+      if (if_block) if_block.d(detaching);
+      if (detaching) (0, _internal.detach_dev)(if_block_anchor);
+    }
+  };
+  (0, _internal.dispatch_dev)("SvelteRegisterBlock", {
+    block,
+    id: create_then_block.name,
+    type: "then",
+    source: "(572:2) {:then weather}",
+    ctx
+  });
+  return block;
+}
+
+// (573:4) {#if weather && weather.current_condition && weather.current_condition[0]}
+function create_if_block(ctx) {
+  let p;
+  let t_1_value = parseWeather( /*weather*/ctx[25].current_condition[0], /*activeLanguage*/ctx[2]) + "";
+  let t_1;
+  const block = {
+    c: function create() {
+      p = (0, _internal.element)("p");
+      t_1 = (0, _internal.text)(t_1_value);
+      (0, _internal.attr_dev)(p, "class", "svelte-15t08fl");
+      (0, _internal.add_location)(p, file, 573, 6, 16042);
+    },
+    m: function mount(target, anchor) {
+      (0, _internal.insert_dev)(target, p, anchor);
+      (0, _internal.append_dev)(p, t_1);
+    },
+    p: function update(ctx, dirty) {
+      if (dirty & /*activeLanguage*/4 && t_1_value !== (t_1_value = parseWeather( /*weather*/ctx[25].current_condition[0], /*activeLanguage*/ctx[2]) + "")) (0, _internal.set_data_dev)(t_1, t_1_value);
+    },
+    d: function destroy(detaching) {
+      if (detaching) (0, _internal.detach_dev)(p);
+    }
+  };
+  (0, _internal.dispatch_dev)("SvelteRegisterBlock", {
+    block,
+    id: create_if_block.name,
+    type: "if",
+    source: "(573:4) {#if weather && weather.current_condition && weather.current_condition[0]}",
+    ctx
+  });
+  return block;
+}
+
+// (570:25)      <p>🌤</p>   {:then weather}
+function create_pending_block(ctx) {
+  let p;
+  const block = {
+    c: function create() {
+      p = (0, _internal.element)("p");
+      p.textContent = "🌤";
+      (0, _internal.attr_dev)(p, "class", "svelte-15t08fl");
+      (0, _internal.add_location)(p, file, 570, 4, 15929);
+    },
+    m: function mount(target, anchor) {
+      (0, _internal.insert_dev)(target, p, anchor);
+    },
     p: _internal.noop,
-    d: _internal.noop
+    d: function destroy(detaching) {
+      if (detaching) (0, _internal.detach_dev)(p);
+    }
   };
   (0, _internal.dispatch_dev)("SvelteRegisterBlock", {
     block,
     id: create_pending_block.name,
     type: "pending",
-    source: "(538:23)    {:then weatherInfo}",
+    source: "(570:25)      <p>🌤</p>   {:then weather}",
     ctx
   });
   return block;
 }
 
-// (561:2) {#each listItems as listItem, index}
+// (598:2) {#each listItems as listItem, index}
 function create_each_block(ctx) {
   let div;
   let a;
@@ -230,11 +282,11 @@ function create_each_block(ctx) {
   let t0;
   let center;
   let h1;
-  let t1_value = /*getName*/ctx[7]( /*listItem*/ctx[19], /*$locale*/ctx[0]) + "";
+  let t1_value = /*getName*/ctx[7]( /*listItem*/ctx[22], /*$locale*/ctx[0]) + "";
   let t1;
   let t2;
   let p;
-  let raw_value = /*getDescription*/ctx[6]( /*listItem*/ctx[19], /*$locale*/ctx[0]) + "";
+  let raw_value = /*getDescription*/ctx[6]( /*listItem*/ctx[22], /*$locale*/ctx[0]) + "";
   let t3;
   let button;
   let svg;
@@ -245,7 +297,7 @@ function create_each_block(ctx) {
   let mounted;
   let dispose;
   function click_handler_2() {
-    return /*click_handler_2*/ctx[10]( /*listItem*/ctx[19]);
+    return /*click_handler_2*/ctx[10]( /*listItem*/ctx[22]);
   }
   const block = {
     c: function create() {
@@ -264,37 +316,37 @@ function create_each_block(ctx) {
       path0 = (0, _internal.svg_element)("path");
       path1 = (0, _internal.svg_element)("path");
       t4 = (0, _internal.space)();
-      (0, _internal.attr_dev)(img, "data-src", img_data_src_value = /*listItem*/ctx[19].image);
-      (0, _internal.attr_dev)(img, "alt", img_alt_value = /*getName*/ctx[7]( /*listItem*/ctx[19], /*$locale*/ctx[0]));
+      (0, _internal.attr_dev)(img, "data-src", img_data_src_value = /*listItem*/ctx[22].image);
+      (0, _internal.attr_dev)(img, "alt", img_alt_value = /*getName*/ctx[7]( /*listItem*/ctx[22], /*$locale*/ctx[0]));
       (0, _internal.attr_dev)(img, "class", "lazyload svelte-15t08fl");
-      (0, _internal.add_location)(img, file, 563, 8, 15580);
-      (0, _internal.attr_dev)(a, "href", a_href_value = /*listItem*/ctx[19].website);
+      (0, _internal.add_location)(img, file, 600, 8, 16844);
+      (0, _internal.attr_dev)(a, "href", a_href_value = /*listItem*/ctx[22].website);
       (0, _internal.attr_dev)(a, "target", "_blank");
       (0, _internal.attr_dev)(a, "rel", "nofollow");
       (0, _internal.attr_dev)(a, "class", "svelte-15t08fl");
-      (0, _internal.add_location)(a, file, 562, 6, 15511);
+      (0, _internal.add_location)(a, file, 599, 6, 16775);
       (0, _internal.attr_dev)(h1, "class", "lname svelte-15t08fl");
-      (0, _internal.add_location)(h1, file, 566, 8, 15739);
+      (0, _internal.add_location)(h1, file, 603, 8, 17003);
       (0, _internal.attr_dev)(center, "class", "svelte-15t08fl");
-      (0, _internal.add_location)(center, file, 565, 6, 15722);
+      (0, _internal.add_location)(center, file, 602, 6, 16986);
       (0, _internal.attr_dev)(p, "class", "description svelte-15t08fl");
-      (0, _internal.add_location)(p, file, 568, 6, 15813);
+      (0, _internal.add_location)(p, file, 605, 6, 17077);
       (0, _internal.attr_dev)(path0, "d", "M63.3 512.2a448.5 448 0 1 0 897 0 448.5 448 0 1 0-897 0Z");
       (0, _internal.attr_dev)(path0, "fill", "#4D6BFF");
-      (0, _internal.add_location)(path0, file, 571, 91, 16138);
+      (0, _internal.add_location)(path0, file, 608, 91, 17402);
       (0, _internal.attr_dev)(path1, "d", "M416.09375 605.09375c1.21875 0.5625 2.15625 1.5 2.71875 2.71875l82.3125 175.6875c3.1875 6.84375 12.84375 7.03125 15.75 0.375l201.84375-465.75c3.5625-8.15625-4.78125-16.5-12.9375-12.9375L240.125 507.03125c-6.75 2.90625-6.5625 12.5625 0.375 15.75l175.59375 82.3125z");
       (0, _internal.attr_dev)(path1, "fill", "#ffffff");
-      (0, _internal.add_location)(path1, file, 571, 174, 16221);
+      (0, _internal.add_location)(path1, file, 608, 174, 17485);
       (0, _internal.attr_dev)(svg, "viewBox", "0 0 1024 1024");
       (0, _internal.attr_dev)(svg, "class", "icon svelte-15t08fl");
       (0, _internal.attr_dev)(svg, "version", "1.1");
       (0, _internal.attr_dev)(svg, "xmlns", "http://www.w3.org/2000/svg");
-      (0, _internal.add_location)(svg, file, 571, 0, 16047);
+      (0, _internal.add_location)(svg, file, 608, 0, 17311);
       (0, _internal.attr_dev)(button, "class", "directions-button svelte-15t08fl");
-      (0, _internal.add_location)(button, file, 570, 6, 15919);
+      (0, _internal.add_location)(button, file, 607, 6, 17183);
       (0, _internal.attr_dev)(div, "class", "list-item svelte-15t08fl");
-      (0, _internal.attr_dev)(div, "id", div_id_value = "list-item-" + /*index*/ctx[21]);
-      (0, _internal.add_location)(div, file, 561, 4, 15458);
+      (0, _internal.attr_dev)(div, "id", div_id_value = "list-item-" + /*index*/ctx[24]);
+      (0, _internal.add_location)(div, file, 598, 4, 16722);
     },
     m: function mount(target, anchor) {
       (0, _internal.insert_dev)(target, div, anchor);
@@ -320,11 +372,11 @@ function create_each_block(ctx) {
     },
     p: function update(new_ctx, dirty) {
       ctx = new_ctx;
-      if (dirty & /*$locale*/1 && img_alt_value !== (img_alt_value = /*getName*/ctx[7]( /*listItem*/ctx[19], /*$locale*/ctx[0]))) {
+      if (dirty & /*$locale*/1 && img_alt_value !== (img_alt_value = /*getName*/ctx[7]( /*listItem*/ctx[22], /*$locale*/ctx[0]))) {
         (0, _internal.attr_dev)(img, "alt", img_alt_value);
       }
-      if (dirty & /*$locale*/1 && t1_value !== (t1_value = /*getName*/ctx[7]( /*listItem*/ctx[19], /*$locale*/ctx[0]) + "")) (0, _internal.set_data_dev)(t1, t1_value);
-      if (dirty & /*$locale*/1 && raw_value !== (raw_value = /*getDescription*/ctx[6]( /*listItem*/ctx[19], /*$locale*/ctx[0]) + "")) p.innerHTML = raw_value;
+      if (dirty & /*$locale*/1 && t1_value !== (t1_value = /*getName*/ctx[7]( /*listItem*/ctx[22], /*$locale*/ctx[0]) + "")) (0, _internal.set_data_dev)(t1, t1_value);
+      if (dirty & /*$locale*/1 && raw_value !== (raw_value = /*getDescription*/ctx[6]( /*listItem*/ctx[22], /*$locale*/ctx[0]) + "")) p.innerHTML = raw_value;
       ;
     },
     d: function destroy(detaching) {
@@ -337,7 +389,7 @@ function create_each_block(ctx) {
     block,
     id: create_each_block.name,
     type: "each",
-    source: "(561:2) {#each listItems as listItem, index}",
+    source: "(598:2) {#each listItems as listItem, index}",
     ctx
   });
   return block;
@@ -389,11 +441,11 @@ function create_fragment(ctx) {
     ctx,
     current: null,
     token: null,
-    hasCatch: false,
+    hasCatch: true,
     pending: create_pending_block,
     then: create_then_block,
     catch: create_catch_block,
-    value: 22
+    value: 25
   };
   (0, _internal.handle_promise)(promise = /*weatherPromise*/ctx[5], info);
   let each_value = _consts.listItems;
@@ -444,47 +496,47 @@ function create_fragment(ctx) {
       (0, _internal.attr_dev)(a0, "href", "https://www.facebook.com/groups/1576634512426828/");
       (0, _internal.attr_dev)(a0, "target", "_blank");
       (0, _internal.attr_dev)(a0, "rel", "nofollow noopener noreferrer");
-      (0, _internal.add_location)(a0, file, 531, 6, 14219);
+      (0, _internal.add_location)(a0, file, 563, 6, 15314);
       (0, _internal.attr_dev)(a1, "class", "usLink svelte-15t08fl");
       (0, _internal.attr_dev)(a1, "href", "http://zemaitijosnp.lt");
       (0, _internal.attr_dev)(a1, "target", "_blank");
       (0, _internal.attr_dev)(a1, "rel", "nofollow noopener noreferrer");
-      (0, _internal.add_location)(a1, file, 532, 6, 14375);
+      (0, _internal.add_location)(a1, file, 564, 6, 15470);
       (0, _internal.attr_dev)(a2, "class", "usLink svelte-15t08fl");
       (0, _internal.attr_dev)(a2, "href", "https://www.facebook.com/plateliuseniunija");
       (0, _internal.attr_dev)(a2, "target", "_blank");
       (0, _internal.attr_dev)(a2, "rel", "nofollow noopener noreferrer");
-      (0, _internal.add_location)(a2, file, 533, 6, 14499);
+      (0, _internal.add_location)(a2, file, 565, 6, 15594);
       (0, _internal.attr_dev)(a3, "class", "usLink svelte-15t08fl");
       (0, _internal.attr_dev)(a3, "href", "https://www.plunge.lt/");
       (0, _internal.attr_dev)(a3, "target", "_blank");
       (0, _internal.attr_dev)(a3, "rel", "nofollow noopener noreferrer");
-      (0, _internal.add_location)(a3, file, 534, 6, 14646);
-      (0, _internal.add_location)(small, file, 530, 4, 14205);
+      (0, _internal.add_location)(a3, file, 566, 6, 15741);
+      (0, _internal.add_location)(small, file, 562, 4, 15300);
       (0, _internal.attr_dev)(div0, "class", "weather svelte-15t08fl");
-      (0, _internal.add_location)(div0, file, 536, 0, 14782);
+      (0, _internal.add_location)(div0, file, 568, 0, 15877);
       (0, _internal.attr_dev)(button0, "class", button0_class_value = "language-switch " + ( /*activeLanguage*/ctx[2] === 'lt' ? 'active' : '') + " svelte-15t08fl");
-      (0, _internal.add_location)(button0, file, 544, 2, 14901);
+      (0, _internal.add_location)(button0, file, 581, 2, 16165);
       (0, _internal.attr_dev)(button1, "class", button1_class_value = "language-switch " + ( /*activeLanguage*/ctx[2] === 'en' || /*activeLanguage*/ctx[2] === 'en-US' ? 'active' : '') + " svelte-15t08fl");
-      (0, _internal.add_location)(button1, file, 545, 2, 15029);
+      (0, _internal.add_location)(button1, file, 582, 2, 16293);
       (0, _internal.attr_dev)(div1, "class", "head svelte-15t08fl");
-      (0, _internal.add_location)(div1, file, 529, 2, 14182);
+      (0, _internal.add_location)(div1, file, 561, 2, 15277);
       (0, _internal.attr_dev)(div2, "class", "typed-in svelte-15t08fl");
-      (0, _internal.add_location)(div2, file, 551, 6, 15253);
+      (0, _internal.add_location)(div2, file, 588, 6, 16517);
       (0, _internal.attr_dev)(div3, "class", "column svelte-15t08fl");
-      (0, _internal.add_location)(div3, file, 550, 4, 15226);
+      (0, _internal.add_location)(div3, file, 587, 4, 16490);
       (0, _internal.attr_dev)(div4, "class", "columns svelte-15t08fl");
-      (0, _internal.add_location)(div4, file, 549, 2, 15200);
+      (0, _internal.add_location)(div4, file, 586, 2, 16464);
       (0, _internal.attr_dev)(h1, "class", "svelte-15t08fl");
-      (0, _internal.add_location)(h1, file, 556, 6, 15369);
+      (0, _internal.add_location)(h1, file, 593, 6, 16633);
       (0, _internal.attr_dev)(div5, "class", "typed-out svelte-15t08fl");
       (0, _internal.attr_dev)(div5, "style", "");
-      (0, _internal.add_location)(div5, file, 555, 4, 15330);
+      (0, _internal.add_location)(div5, file, 592, 4, 16594);
       (0, _internal.attr_dev)(div6, "class", "headtwo svelte-15t08fl");
-      (0, _internal.add_location)(div6, file, 554, 2, 15304);
+      (0, _internal.add_location)(div6, file, 591, 2, 16568);
       (0, _internal.attr_dev)(div7, "id", "list-items");
       (0, _internal.attr_dev)(div7, "class", "svelte-15t08fl");
-      (0, _internal.add_location)(div7, file, 527, 0, 14115);
+      (0, _internal.add_location)(div7, file, 559, 0, 15210);
     },
     l: function claim(nodes) {
       throw new Error_1("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -595,6 +647,21 @@ function create_fragment(ctx) {
   });
   return block;
 }
+const WEATHER_CACHE_KEY = 'berzoras_weather_cache';
+function parseWeather(cond, lang) {
+  const ltDesc = lang === 'lt' && cond.lang_lt && cond.lang_lt[0] && cond.lang_lt[0].value;
+  const enDesc = cond.weatherDesc && cond.weatherDesc[0] && cond.weatherDesc[0].value;
+  const desc = ltDesc || enDesc || '';
+  return cond.temp_C + '\u00B0C \u00B7 ' + desc + ' \u00B7 \uD83D\uDCA8 ' + cond.windspeedKmph + ' km/h';
+}
+
+// let defaultLanguage = 'lt'; // Default language
+// let descriptions, keywords; // Assuming these are defined elsewhere as before
+// function detectUserLanguage() {
+//   // Logic to detect the user's preferred language, fallback to default if necessary
+//   const userLang = navigator.language || navigator.userLanguage; 
+//   return userLang.startsWith('en') ? 'en-US' : defaultLanguage; // Example: fallback to 'en' if not Lithuanian
+// }
 function detectUserLanguage() {
   // Check if the URL already specifies a language
   const hash = window.location.hash.replace('#/', '');
@@ -659,6 +726,14 @@ function updateOgTitle(content) {
     document.getElementsByTagName('head')[0].appendChild(ogTitle);
   }
 }
+function setCachedWeather(data) {
+  try {
+    localStorage.setItem(WEATHER_CACHE_KEY, JSON.stringify({
+      data,
+      timestamp: Date.now()
+    }));
+  } catch (_) {}
+}
 function instance($$self, $$props, $$invalidate) {
   let activeLanguage;
   let $locale;
@@ -699,12 +774,31 @@ function instance($$self, $$props, $$invalidate) {
   }
   let listRef;
   let timeout;
-  let weatherPromise = fetch('https://wttr.in/Berzoras?format=%c+%t&lang=en').then(response => {
-    if (!response.ok) {
-      throw new Error('Failed to fetch weather');
-    }
-    return response.text();
-  });
+  const WEATHER_CACHE_TTL_MS = 30 * 60 * 1000; // 30 minutes
+
+  function getCachedWeather() {
+    try {
+      const cached = localStorage.getItem(WEATHER_CACHE_KEY);
+      if (!cached) return null;
+      const {
+        data,
+        timestamp
+      } = JSON.parse(cached);
+      if (Date.now() - timestamp < WEATHER_CACHE_TTL_MS) return data;
+      localStorage.removeItem(WEATHER_CACHE_KEY);
+    } catch (_) {}
+    return null;
+  }
+  async function fetchWeather() {
+    const cached = getCachedWeather();
+    if (cached) return cached;
+    const response = await fetch('https://wttr.in/Berzoras?format=j2&lang=lt');
+    if (!response.ok) throw new Error('Failed to fetch weather');
+    const data = await response.json();
+    setCachedWeather(data);
+    return data;
+  }
+  let weatherPromise = fetchWeather();
   const scrollHandler = () => {
     const listItems = Array.from(document.getElementsByClassName('list-item'));
     const visibleListItems = listItems.map(_inView.default.is);
@@ -812,6 +906,7 @@ function instance($$self, $$props, $$invalidate) {
     locale: _svelteI18n.locale,
     ogTitles,
     descriptions,
+    parseWeather,
     detectUserLanguage,
     openGoogleMapsDirections,
     updateMetaDescription,
@@ -819,6 +914,11 @@ function instance($$self, $$props, $$invalidate) {
     changeLanguage,
     listRef,
     timeout,
+    WEATHER_CACHE_KEY,
+    WEATHER_CACHE_TTL_MS,
+    getCachedWeather,
+    setCachedWeather,
+    fetchWeather,
     weatherPromise,
     scrollHandler,
     debouncedScrollHandler,
@@ -907,7 +1007,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44399" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44601" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
